@@ -19,10 +19,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 ### Nodejs
 
-> You can use nvm too
+> Use `NVM` to manage node version
+> https://github.com/nvm-sh/nvm#installing-and-updating
 
 ```bash
-curl -sL install-node.now.sh/lts | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+```
+
+```bash
+nvm install node # "node" is an alias for the latest version
 ```
 
 ## Install plug
