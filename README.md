@@ -18,7 +18,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 ```
 
 ### Nodejs
-> you can use nvm too...
+
+> You can use nvm too
+
 ```bash
 curl -sL install-node.now.sh/lts | bash
 ```
@@ -53,3 +55,51 @@ The output file called `compile_commands.json` is saved in the current directory
 `coc-nvim` will use this file to navigate source code.
 
 > https://github.com/rizsotto/Bear
+
+
+
+## Plug-in Usage
+
+### Basic
+
+- `jj`  equivalent to `ESC`
+- Tab for completion
+- `Enter` to choose completion item
+- `gd` to jump to definition
+- `gr` for references
+- `gy` for type definition
+- `Ctrl + o` return to prev page
+- `K` for documentation
+- `\rn` for renaming
+- Diagnostics:
+  - `[g` and `]g` to go prev/next in diagnostics
+
+- `Ctrl + n` open directory tree
+
+### Fuzzy Search 
+
+`:LeaderfFile` search files in current directory 
+
+`:LeaderfBuffer` search current buffer 
+
+`:LeaderfMru` search most recently used files
+
+`:LeaderfLine` search some word in current file
+
+`:LeaderfFunction` search function in current file
+
+### Comment
+
+`\cc` comment current line
+
+`\cu` uncomment
+
+`\ca ` change comment style (// and /**/)
+
+> https://github.com/preservim/nerdcommenter
+
+
+
+### Reference 
+
+https://zhuanlan.zhihu.com/p/145793963
