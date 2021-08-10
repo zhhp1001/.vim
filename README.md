@@ -31,7 +31,9 @@ curl -sL install-node.now.sh/lts | bash
 $ vim		#open vim
 $ :PlugInstall # install plugs
 ```
-
+## Theme
+uncomment this line in `vimrc` (and comment the light version line) for dark version
+"set background=dark
 ### clangd (for C/C++)
 
 > https://clangd.llvm.org/installation.html
