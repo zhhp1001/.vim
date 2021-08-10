@@ -44,6 +44,10 @@ uncomment this line in `vimrc` (and comment the light version line) for dark ver
 
 > https://clangd.llvm.org/installation.html
 
+```bash
+sudo apt install clangd
+```
+
 ### coc-clangd
 
 in vim, run `:CocInstall coc-clangd`
