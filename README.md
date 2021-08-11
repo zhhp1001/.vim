@@ -110,7 +110,22 @@ The output file called `compile_commands.json` is saved in the current directory
 
 > https://github.com/preservim/nerdcommenter
 
+### Big Word
+```bash
+sudo apt install figlet
+```
+Add this line to vimrc
+```bash
+noremap tx :r !figlet
+```
+Press tx and enter your text
+tx Hello<Enter>
 
+ _   _      _ _
+| | | | ___| | | ___
+| |_| |/ _ \ | |/ _ \
+|  _  |  __/ | | (_) |
+|_| |_|\___|_|_|\___/
 
 ### Reference 
 
