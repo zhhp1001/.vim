@@ -120,13 +120,13 @@ noremap tx :r !figlet
 ```
 Press tx and enter your text
 tx Hello<Enter>
-
+```
  _   _      _ _
 | | | | ___| | | ___
 | |_| |/ _ \ | |/ _ \
 |  _  |  __/ | | (_) |
 |_| |_|\___|_|_|\___/
-
+```
 ### Reference 
 
 https://zhuanlan.zhihu.com/p/145793963
