@@ -65,6 +65,9 @@ Use `bear make` instead of `make`
 The output file called `compile_commands.json` is saved in the current directory. 
 
 `coc-nvim` will use this file to navigate source code.
+> For cmake projects, add `set(CMAKE_EXPORT_COMPILE_COMMANDS ON)` in `CMakeList.txt`
+> generate the compile_commands.json file into the current directory.
+> For non-cmake projects, Bear generates the JSON file during the build process.
 
 > https://github.com/rizsotto/Bear
 
