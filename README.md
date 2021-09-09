@@ -71,7 +71,9 @@ The output file called `compile_commands.json` is saved in the current directory
 
 > https://github.com/rizsotto/Bear
 
+## Install ctags to support LeaderF
 
+`sudo apt install ctags`
 
 ## Plug-in Usage
 
