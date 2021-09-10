@@ -22,6 +22,8 @@ set smartcase
 exec "nohlsearch"
 set autoindent
 set tabstop=4
+set expandtab
+set shiftwidth=4
 set laststatus=2
 "End Myself config
 
