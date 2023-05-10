@@ -129,3 +129,12 @@ nmap <leader>rn <Plug>(coc-rename)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 " End Coc Settings
+
+" ==================== vim-instant-markdown ====================
+let g:instant_markdown_slow = 0
+let g:instant_markdown_autostart = 1
+" let g:instant_markdown_open_to_the_world = 1
+" let g:instant_markdown_allow_unsafe_content = 1
+" let g:instant_markdown_allow_external_content = 0
+" let g:instant_markdown_mathjax = 1
+let g:instant_markdown_autoscroll = 1
