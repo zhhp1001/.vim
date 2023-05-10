@@ -132,6 +132,14 @@ tx Hello<Enter>
 |  _  |  __/ | | (_) |
 |_| |_|\___|_|_|\___/
 ```
+### Generate markdown table
+  https://github.com/dhruvasagar/vim-table-mode
+  
+  To start using the plugin in the on-the-fly mode use :TableModeToggle mapped to <Leader>tm by default (which means `\` `t` `m`)
+  Enter the first line, delimiting columns by the | symbol. The plugin reacts by inserting spaces between the text and the separator if you omit them:
+
+| name | address | phone |
+  
 ### Reference 
 
 https://zhuanlan.zhihu.com/p/145793963
