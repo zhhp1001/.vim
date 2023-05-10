@@ -140,6 +140,12 @@ tx Hello<Enter>
 
 | name | address | phone |
   
+### Instant markdown
+https://github.com/instant-markdown/vim-instant-markdown
+```bash
+  npm -g install instant-markdown-d@next
+```
+  
 ### Reference 
 
 https://zhuanlan.zhihu.com/p/145793963
