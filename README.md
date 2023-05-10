@@ -30,6 +30,10 @@ source ~/.bashrc
 ```bash
 nvm install node # "node" is an alias for the latest version
 ```
+## Install dependency for instant-markdown
+```bash
+  npm -g install instant-markdown-d@next
+```
 
 ## Install plug
 
@@ -142,9 +146,7 @@ tx Hello<Enter>
   
 ### Instant markdown
 https://github.com/instant-markdown/vim-instant-markdown
-```bash
-  npm -g install instant-markdown-d@next
-```
+
   
 ### Reference 
 
