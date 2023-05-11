@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
 "Start Myself config
@@ -138,3 +139,13 @@ let g:instant_markdown_autostart = 1
 " let g:instant_markdown_allow_external_content = 0
 " let g:instant_markdown_mathjax = 1
 let g:instant_markdown_autoscroll = 1
+
+" ==================== vim-visual-multi ====================
+"let g:VM_theme             = 'iceblue'
+"let g:VM_default_mappings = 0
+let g:VM_leader                     = {'default': ',', 'visual': ',', 'buffer': ','}
+let g:VM_maps                       = {}
+let g:VM_maps['Find Under']         = '<C-k>'
+let g:VM_maps['Find Subword Under'] = '<C-k>'
+let g:VM_maps['Remove Region']      = 'q'
+let g:VM_maps["Redo"]               = '<C-r>'
