@@ -37,10 +37,13 @@ let g:airline_theme='solarized'
 " <Ctrl + n> open directory tree
 map <C-n> :NERDTreeToggle<CR>
 
-" Important!!
-if has('termguicolors')
+" Important! Enable 24bit true color
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
+
 " For dark version.
 "set background=dark
 " For light version.
