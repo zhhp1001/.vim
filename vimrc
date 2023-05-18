@@ -32,7 +32,7 @@ set laststatus=2
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='solarized'
+let g:airline_theme='tomorrow'
 
 " <Ctrl + n> open directory tree
 map <C-n> :NERDTreeToggle<CR>
@@ -45,9 +45,9 @@ if exists('+termguicolors')
 endif
 
 " For dark version.
-"set background=dark
+set background=dark
 " For light version.
-set background=light
+"set background=light
 " Set contrast.
 " This configuration option should be placed before `colorscheme everforest`.
 " Available values: 'hard', 'medium'(default), 'soft'
