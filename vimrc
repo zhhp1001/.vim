@@ -152,3 +152,21 @@ let g:VM_maps['Find Under']         = '<C-k>'
 let g:VM_maps['Find Subword Under'] = '<C-k>'
 let g:VM_maps['Remove Region']      = 'q'
 let g:VM_maps["Redo"]               = '<C-r>'
+
+" ==================== Code completion bar color ====================
+hi PmenuSel ctermfg=white ctermbg=blue gui=bold guifg=white guibg=purple
+
+" ==================== Code completion select the first item by <TAB> ====================
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ?
+      \ "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+    function! s:check_back_space() abort
+      let col = col('.') - 1
+      return !col || getline('.')[col - 1]  =~# '\s'
+    endfunction
+
+    let g:coc_snippet_next = '<tab>'
