@@ -60,7 +60,7 @@ in vim, run `:CocInstall coc-clangd`
 
 > https://github.com/clangd/coc-clangd
 
-## bear make generate `complie_commands.json`
+## Can be skipped, compiledb is better.
 
 `sudo apt install bear`
 
@@ -74,6 +74,15 @@ The output file called `compile_commands.json` is saved in the current directory
 > For non-cmake projects, Bear generates the JSON file during the build process.
 
 > https://github.com/rizsotto/Bear
+
+## compiledb
+Tool for generating Clang's JSON Compilation Database file for GNU make-based build systems.
+
+```bash
+pip install compiledb
+```
+https://github.com/nickdiego/compiledb
+
 
 ## Install ctags to support LeaderF
 
